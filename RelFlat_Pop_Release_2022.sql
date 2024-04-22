@@ -1,6 +1,6 @@
 IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'Prc_RelFlat_Pop_ReleaseFlat') DROP PROCEDURE dbo.Prc_RelFlat_Pop_ReleaseFlat
 
-GO one
+GO
   
 CREATE PROCEDURE dbo.Prc_RelFlat_Pop_ReleaseFlat       
           
